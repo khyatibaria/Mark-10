@@ -33,9 +33,9 @@ function calculate() {
       amountReturn %= allNotes[i];
       notestoReturn[i].innerText = change;
     }
-
     outputDiv.style.display = "Block";
-  } else {
+  } 
+  else {
 
     errorMsg("Cash Amount should atleast be equal to Bill Amount");
   }
